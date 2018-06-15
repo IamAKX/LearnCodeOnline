@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.akash.applications.learncodeonline.NameEmail">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/user"
+        android:tint="@color/colorPrimary"
+        android:background="@drawable/round_background"/>
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Enter your Details"
+        android:textSize="20sp"
+        android:layout_below="@id/logo"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:id="@+id/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/theme_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/label1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user"
+            android:tint="@color/theme_hint"
+                        />
+
+        <EditText
+            android:background="@color/theme_gray"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:textColorHint="@color/theme_hint"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/theme_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/linerlayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email"
+            android:tint="@color/theme_hint"
+            />
+
+        <EditText
+            android:background="@color/theme_gray"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/theme_hint"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:elevation="10dp"
+        android:id="@+id/goNext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/tick"
+        android:tint="@color/colorPrimary"
+        android:background="@drawable/round_background"/>
+
+
+</RelativeLayout>

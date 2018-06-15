@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.akash.applications.learncodeonline.PhoneRegisteration">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/call"
+        android:tint="@color/colorPrimary"
+        android:background="@drawable/round_background"/>
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Enter your mobile number"
+        android:textSize="20sp"
+        android:layout_below="@id/logo"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/theme_hint"
+        android:text="We will send a 4-digit verification pin to your\nmobile number"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/label1"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:id="@+id/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/theme_gray"
+        android:gravity="center"
+        android:layout_below="@id/label2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="+91"/>
+
+        <EditText
+            android:background="@color/theme_gray"
+            android:id="@+id/mobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColorHint="@color/theme_hint"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:visibility="gone"
+        android:elevation="10dp"
+        android:layout_below="@+id/linerlayout"
+        android:id="@+id/goNext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/right_arrow"
+        android:tint="@color/colorPrimary"
+        android:background="@drawable/round_background"/>
+
+    <TextView
+        android:id="@+id/termsCondition"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#50aff2"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:textStyle="normal|italic"
+        android:layout_margin="10dp"
+        android:autoLink="web"
+        android:text="By signing up, I agree to Terms of Use"/>
+</RelativeLayout>
