@@ -20,7 +20,8 @@ alt="Check the video demonstration" width="480" height="320" /></a>
 
 ### Screenshots
 
-<img src="https://github.com/IamAKX/LearnCodeOnline/blob/master/Screenshots/Screenshot_2018-06-15-01-11-32-601_com.akash.applications.learncodeonline.png" 
+<img src="https://github.com/IamAKX/LearnCodeOnline/blob/master/Screenshots/Screenshot_2018-06-15-01-11-13-507_com.akash.applications.learncodeonline.png" 
+width="180" height="320" /> <img src="https://github.com/IamAKX/LearnCodeOnline/blob/master/Screenshots/Screenshot_2018-06-15-01-11-32-601_com.akash.applications.learncodeonline.png" 
 width="180" height="320" /> <img src="https://github.com/IamAKX/LearnCodeOnline/blob/master/Screenshots/Screenshot_2018-06-15-01-11-36-590_com.akash.applications.learncodeonline.png" 
 width="180" height="320" />  <img src="https://github.com/IamAKX/LearnCodeOnline/blob/master/Screenshots/Screenshot_2018-06-15-01-11-42-599_com.akash.applications.learncodeonline.png" 
 width="180" height="320" /> <img src="https://github.com/IamAKX/LearnCodeOnline/blob/master/Screenshots/Screenshot_2018-06-15-01-11-53-691_com.akash.applications.learncodeonline.png" 
